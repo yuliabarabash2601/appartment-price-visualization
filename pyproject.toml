@@ -1,0 +1,22 @@
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "rent-price-visualization"
+version = "0.1.0"
+authors = ["Yuliia Barabash"]
+requires-python = ">=3.8"
+
+[tool.poetry]
+name = "rent-price-visualization"
+version = "0.1.0"
+description = ""
+authors = ["yuliiabarabash <yuliia.barabash@partner.bmwgroup.com>"]
+readme = "README.md"
+packages = [{include = "rent_price_visualization"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scapy = "^2.4.5"
