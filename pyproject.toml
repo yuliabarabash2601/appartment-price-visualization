@@ -19,4 +19,4 @@ packages = [{include = "rent_price_visualization"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-scapy = "^2.4.5"
+scrapy = "^2.10.0"
